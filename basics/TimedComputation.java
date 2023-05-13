@@ -1,5 +1,3 @@
-import javax.swing.plaf.nimbus.State;
-
 /**
  * This program performs some mathematical computations and displays
  * the results. It also displays the value of the constant MAth.PI.
@@ -18,7 +16,7 @@ import javax.swing.plaf.nimbus.State;
 		double width, height, hyp;
 		width = 42.0;
 		height = 17.0;
-		hyp = Math.sqrt(Math.pow(width, 2) + Math.pow(width, 2));
+		hyp = Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2));
 		System.out.print("A triangle with sides 42 and 17 has hypotenuse ");
 		System.out.println(hyp);
 
