@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Clear the console
+clear
+
 # Get the latest .java file in the current directory
 my_file=$(ls -t *.java | head -n1)
 
@@ -16,6 +19,7 @@ if [ $? -eq 0 ]; then
     # Run the Java program
     java $my_exec
 
+	rm ${my_exec}.class
 else
     echo "Compilation failed"
 fi
