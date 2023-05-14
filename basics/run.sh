@@ -14,8 +14,6 @@ my_e=$(ls -t *.class | head -n1)
 my_exec=${my_e%.*}
 # Check if compilation was successful
 if [ $? -eq 0 ]; then
-    echo "Compilation successful"
-
     # Run the Java program
     java $my_exec
 
