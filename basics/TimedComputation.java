@@ -14,10 +14,10 @@
 		startTime = System.nanoTime();
 
 		double width, height, hyp;
-		width = 42.0;
-		height = 17.0;
+		width = 30.0;
+		height = 40.0;
 		hyp = Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2));
-		System.out.print("A triangle with sides 42 and 17 has hypotenuse ");
+		System.out.print("A triangle with sides 30 and 40 has hypotenuse ");
 		System.out.println(hyp);
 
 		System.out.println("\nMathematically, sin(x)*sin(x) + " + "cos(x)*cos(x) - 1 should be 0.");
