@@ -1,0 +1,22 @@
+name: Update README.md
+
+on:
+	push:
+		branches:
+			- gekkowrld
+
+
+jobs:
+	update-readme:
+		runs-on: ubuntu-latest
+
+		steps:
+			-name: Checkout repository
+			uses: actions/checkout@v3.5.2
+
+			- name: Update README.md
+			echo "Folder: `.`" >> README.md
+			echo "" >> README.md
+			echo "Files:" >> README.md
+			echo "" >> README.md
+			find . - type f -exec echo "- [{}]({})" >> README.md
