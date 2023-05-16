@@ -1,6 +1,6 @@
 # Java Project Repository
 
-Welcome to the Java Project Repository! This repository serves as a collection of my Java projects as I learn and explore the language. Feel free to browse through the projects and contribute if you'd like. Your contributions, feedback, and suggestions are greatly appreciated!
+Welcome to the Java Project Repository! This repository serves as a collection of my Java projects and random codes as I learn and explore the language. Feel free to browse through the files and contribute if you'd like. Your contributions, feedback, and suggestions are greatly appreciated!
 
 ## Contributing
 
