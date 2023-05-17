@@ -20,7 +20,11 @@
 		str = input.nextLine();
 
 		// We print out the answer
+		// We have escaped the "" so that they are printed AS IS instead
+		// of as part of a program
 
 		System.out.println("\"" + str  + "\"" + " is " + str.length() + " characters long");
+
+		input.close();
 	}
  }
