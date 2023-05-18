@@ -17,6 +17,22 @@ If you'd like to contribute to this repository, follow the steps below:
 
 Please make sure to adhere to the existing code style, conventions, and documentation guidelines.
 
+## Running
+
+If you want to run/compile the program then you must have both java and javac installed.  
+If not, you can install them at <https://www.oracle.com/downloads/#category-java>
+
+Then run if you are on a GNU/Linux Operating system:
+
+```bash
+java file_name.java # To compile java files
+javac file_name # To run the compiled file, it shouldn't have an extension
+```
+
+That should compile and run most of the files in the `basics` folder.
+
+You can also just use the `run.sh` file by running `./run.sh` and it will compile the latest edited files in the folder.
+
 ## Issues
 
 If you encounter any issues with the projects or have ideas for improvements, please feel free to open an issue in the repository. Provide a clear and detailed explanation of the problem or suggestion, along with any relevant information.
