@@ -19,6 +19,8 @@ class TestArray{
 
 		/**
 		 * Traverse is a fancy way of saying go through this array and look at each value and return the value
+		 * We are using a for loop to print out the values of a
+		 * We can use a while loop to accomplish the same but we'll do it later on when looking at control structures
 		 */
 
 		for (int i = 0; i < a.length; i++)
