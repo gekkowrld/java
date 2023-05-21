@@ -30,12 +30,17 @@ import java.util.Scanner;
 		System.out.println("Enter the choice: ");
 		int choice = input.nextInt();
 
-		if (choice == 0) return;
+		if (choice == 0){
+			input.close();
+			return;
+		}
 
 		for (int i = 0; i < data.length; i++){
 			if ((i + 1) == choice){
 				System.out.println("You have received " +data[i][0] + " MB for Ksh " + data[i][1]);
 			}
 		}
+
+		input.close();
 	}
  }
