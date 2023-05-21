@@ -47,6 +47,8 @@
 
 		if (choice < 1 || choice > commodity.length){
 			System.out.println("Choice " + choice + " isn't available");
+			input.close();
+			return;
 		}
 
 		input.close();
